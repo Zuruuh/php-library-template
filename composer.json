@@ -1,0 +1,26 @@
+{
+  "$schema": "https://getcomposer.org/schema.json",
+  "name": "zuruuh/php-library-template",
+  "description": "Library template with cool stuff pre-installed",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Zuruuh",
+      "email": "ziadi.mail.pro@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Zuruuh\\PhpLibraryTemplate\\": "src/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

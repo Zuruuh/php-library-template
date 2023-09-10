@@ -1,0 +1,17 @@
+{
+  "$schema": "https://getcomposer.org/schema.json",
+  "minimum-stability": "stable",
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.26",
+    "phpstan/extension-installer": "^1.3",
+    "phpstan/phpstan": "^1.10",
+    "phpstan/phpstan-phpunit": "^1.3",
+    "vimeo/psalm": "^5.15"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "phpstan/extension-installer": true
+    }
+  }
+}
